@@ -30,6 +30,11 @@ mkdir -p epub_build/gen
   echo "# 结语：一栋楼俯瞰"
   cat chapters/epilogue.md | sed '1d'  # 去掉 epilogue 自带的 h1，避免重复
   echo ""
+  # 尾声
+  echo ""
+  echo "# 尾声：AI 时代，如何把这本书用起来"
+  cat chapters/coda.md | sed '1d'  # 去掉 coda 自带的 h1，避免重复
+  echo ""
 } > epub_build/gen/full.md
 
 # 2) pandoc 转 epub（--toc 生成目录；--toc-depth 2）
