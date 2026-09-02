@@ -10,7 +10,7 @@ mkdir -p epub_build/gen
 {
   cat epub_build/00-title.md
   echo ""
-  for part in "0-第〇部分" "1-第一部分" "2-第二部分" "3-第三部分" "4-第四部分" "5-第五部分"; do
+  for part in "0-第〇部分" "1-第一部分" "2-第二部分" "3-第三部分" "4-第四部分" "5-第五部分" "6-第六部分"; do
     partnum=${part%%-*}; partname=${part#*-}
     # 部分标题页（简单占位）
     printf '\n\n# %s\n\n（本部分各章见目录）\n\n' "$partname" > /tmp/_part.md

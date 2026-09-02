@@ -15,6 +15,7 @@
 第三部分  几何             —— 骨架：形与空间
 第四部分  数与几何的结合   —— 把墙和梁接起来：坐标
 第五部分  数学与实践       —— 屋顶之上看风景：数学怎么用
+第六部分  程序             —— 把数学装进机器：数据结构、算法与 AI
 结语      一栋楼俯瞰
 ```
 
@@ -67,10 +68,14 @@
 - [5-01 数学 × 物理](chapters/5-01-physics.md)
 - [5-02 数学 × 化学](chapters/5-02-chemistry.md)
 - [5-03 数学 × 经济学](chapters/5-03-economics.md)
-- [5-04 数学 × 计算机科学](chapters/5-04-computer-science.md)
-- [5-05 概率与统计](chapters/5-05-probability-stats.md)
-- [5-06 数学 × 艺术](chapters/5-06-art.md)
-- [5-07 数学 × 生活](chapters/5-07-life.md)
+- [5-04 概率与统计](chapters/5-04-probability-stats.md)
+- [5-05 数学 × 艺术](chapters/5-05-art.md)
+- [5-06 数学 × 生活](chapters/5-06-life.md)
+
+### 第六部分 程序
+- [6-01 数据结构：软件怎么"记"](chapters/6-01-data-structures.md)　数组 · 链表 · 栈队列 · 哈希表 · 树与图
+- [6-02 算法：软件怎么"算"](chapters/6-02-algorithms.md)　搜索 · 排序 · 递归 · 加密 · 复杂度 · 计算边界
+- [6-03 AI 中的算法：计算机如何学会"想"](chapters/6-03-ai-algorithms.md)　机器学习 · 神经网络 · 梯度下降 · 生成式 AI
 
 ### 结语
 - [一栋楼俯瞰](chapters/epilogue.md)
