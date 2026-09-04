@@ -1,0 +1,44 @@
+<style>
+      body{margin:0;font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;line-height:1.85;font-size:17px;color:#2b2b2b;background:#fbfaf7;}
+      /* 左侧目录侧边栏 */
+      nav#TOC{position:fixed;left:0;top:0;bottom:0;width:300px;overflow-y:auto;background:#f3efe7;border-right:1px solid #e6e0d5;padding:24px 20px;box-sizing:border-box;}
+      nav#TOC > ul{list-style:none;padding-left:0;margin:0;}
+      nav#TOC ul ul{padding-left:16px;}
+      nav#TOC li{margin:6px 0;font-size:14px;line-height:1.55;}
+      nav#TOC a{color:#5a4a35;text-decoration:none;}
+      nav#TOC a:hover{color:#8a5a2b;text-decoration:underline;}
+      nav#TOC > ul > li > a{font-weight:600;color:#3a3a3a;}
+      /* 正文区 */
+      .content{margin-left:300px;max-width:760px;padding:40px 44px 80px;}
+      h1{font-size:28px;margin:32px 0 16px;color:#1f1f1f;}
+      h2{font-size:21px;margin:32px 0 12px;padding-bottom:6px;border-bottom:1px solid #e6e0d5;color:#1f1f1f;}
+      blockquote{background:#f3efe7;border-left:4px solid #8a5a2b;margin:16px 0;padding:14px 20px;border-radius:4px;color:#3a3a3a;}
+      blockquote p{margin:0;}
+      code{background:#f4f1ea;padding:2px 5px;border-radius:3px;font-size:.9em;}
+      pre{background:#f4f1ea;padding:14px 18px;border-radius:6px;overflow-x:auto;line-height:1.6;}
+      pre code{background:transparent;padding:0;}
+      table{border-collapse:collapse;width:100%;margin:16px 0;}
+      th,td{border:1px solid #e6e0d5;padding:8px 12px;text-align:left;vertical-align:top;}
+      th{background:#f3efe7;}
+      strong{color:#1a1a1a;}
+      img{max-width:100%;}
+      @media (max-width:900px){nav#TOC{position:static;width:auto;max-height:40vh;border-right:none;border-bottom:1px solid #e6e0d5;}.content{margin-left:0;}}
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      var toc = document.getElementById('TOC');
+      if(toc){
+        var content = document.createElement('div');
+        content.className = 'content';
+        var body = document.body;
+        // 把 TOC 之后的所有兄弟节点移入 content 容器
+        var els = Array.prototype.slice.call(body.children);
+        for(var i = 0; i < els.length; i++){
+          if(els[i] !== toc){
+            content.appendChild(els[i]);
+          }
+        }
+        body.insertBefore(content, toc.nextSibling);
+      }
+    });
+  </script>
