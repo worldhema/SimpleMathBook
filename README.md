@@ -29,6 +29,7 @@
 - [0-01 符号从哪里来](chapters/0-01-symbols-origin.md)　0 的迟到 · 运算符号的来历 · 为什么是 x
 - [0-02 符号大观](chapters/0-02-symbols-atlas.md)　运算符号 · 关系符号 · 特殊符号与希腊字母
 - [0-03 容易混淆的符号对](chapters/0-03-confusing-pairs.md)　＋与＋ · －与－ · 分数线与除号 · ×的秘密 · 等号家族 · √的歧义
+- [0-04 数学的故事](chapters/0-04-stories.md)　埃拉托色尼量地球 · 拿破仑测河宽 · 曹冲称象 · 棋盘称米 · 七桥问题 · 高斯求和 · 庄子之棰
 
 ### 第一部分 数
 - [1-01 数系大厦](chapters/1-01-number-system.md)　自然数 · 0 · 负数 · 有理数 · 无理数 · 实数轴
@@ -45,7 +46,8 @@
 - [2-03 对数](chapters/2-03-logarithms.md)　指数的反问 · 对数用途 · lg/lg/ln · 误区：log(a+b)
 - [2-04 函数](chapters/2-04-functions.md)　对应关系 · 图像 · 函数家族
 - [2-05 方程](chapters/2-05-equations.md)　求未知数 · 一元二次 · 方程组 · 不等式
-- [2-06 矩阵与行列式](chapters/2-06-matrices-determinants.md)　数排成矩形 · AB≠BA · 行列式
+- [2-06 矩阵与行列式](chapters/2-06-matrices-determinants.md)　数排成矩形 · AB≠BA · 行列式 · 矩阵的三重意义
+- [2-07 微积分](chapters/2-07-calculus.md)　来历 · 极限 · 微分 · 积分 · 微积分的作用
 
 ### 第三部分 几何
 - [3-01 点与线](chapters/3-01-points-lines.md)　点的哲学 · 第五公设 · 非欧几何的黎明
@@ -61,7 +63,7 @@
 - [4-02 角度与弧度](chapters/4-02-radians.md)　自然的角单位 · 单位圆
 - [4-03 三角函数](chapters/4-03-trigonometry.md)　单位圆 · sin cos tan · 正弦曲线
 - [4-04 极坐标系](chapters/4-04-polar-coordinates.md)　距离+角度 · 螺线 · 与复数联姻
-- [4-05 向量](chapters/4-05-vectors.md)　方向与大小 · 点积叉积 · 力的分解
+- [4-05 向量](chapters/4-05-vectors.md)　方向与大小 · 标量vs向量vs矢量 · 点积叉积 · 力的分解
 - [4-06 欧拉公式](chapters/4-06-euler-formula.md)　五巨头相会 · 最美丽的等式
 
 ### 第五部分 数学与实践
@@ -78,7 +80,7 @@
 - [6-03 AI 中的算法：计算机如何学会"想"](chapters/6-03-ai-algorithms.md)　机器学习 · 神经网络 · 梯度下降 · 生成式 AI
 
 ### 结语
-- [一栋楼俯瞰](chapters/epilogue.md)
+- [一栋楼俯瞰](chapters/epilogue.md)　含：初中起点靠 AI 学高数的阶梯路线图
 
 ## 阅读路线
 
