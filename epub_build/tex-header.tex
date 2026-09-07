@@ -1,0 +1,32 @@
+% 供 pandoc → LaTeX 使用：
+% 1) 正文分隔线 \rule{...}{\linethickness} 需把 \linethickness 当长度值（已有定义也强制覆盖为字面 0.4pt）
+\providecommand{\linethickness}{0.4pt}
+\renewcommand{\linethickness}{0.4pt}
+% 2) 行文中直接书写的 Unicode 数学记号 → LaTeX 命令（所选中文字体缺这些字形，统一转入数学/上下标）
+\usepackage{newunicodechar}
+% —— 数集（双写字母，amssymb \mathbb）——
+\newunicodechar{ℕ}{$\mathbb{N}$}
+\newunicodechar{ℤ}{$\mathbb{Z}$}
+\newunicodechar{ℚ}{$\mathbb{Q}$}
+\newunicodechar{ℝ}{$\mathbb{R}$}
+% —— 逻辑 / 关系算符 ——
+\newunicodechar{⇒}{$\Rightarrow$}
+\newunicodechar{⇔}{$\Leftrightarrow$}
+\newunicodechar{↦}{$\mapsto$}
+\newunicodechar{∉}{$\notin$}
+\newunicodechar{⊂}{$\subset$}
+\newunicodechar{≅}{$\cong$}
+\newunicodechar{⩽}{$\le$}
+\newunicodechar{⩾}{$\ge$}
+\newunicodechar{✓}{$\checkmark$}
+% —— 上下标（文本内嵌的修饰字母 / 上下标符号）——
+\newunicodechar{ˣ}{\textsuperscript{x}}
+\newunicodechar{ᵏ}{\textsuperscript{k}}
+\newunicodechar{ᵐ}{\textsuperscript{m}}
+\newunicodechar{⁺}{\textsuperscript{$+$}}
+\newunicodechar{⁻}{\textsuperscript{$-$}}
+\newunicodechar{ᵢ}{\textsubscript{i}}
+\newunicodechar{₋}{\textsubscript{$-$}}
+\newunicodechar{ₐ}{\textsubscript{a}}
+\newunicodechar{ₑ}{\textsubscript{e}}
+\newunicodechar{ₙ}{\textsubscript{n}}
